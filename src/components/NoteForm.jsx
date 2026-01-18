@@ -80,7 +80,7 @@ const NoteForm = ({ notes, setNotes }) => {
       <TextAreaInput 
        label = 'Description'
        name = 'description'
-       value={formData.value}
+       value={formData.description}
        onChange={handleChange}
        required
       />
